@@ -1,0 +1,26 @@
+
+UNIX-Bench:
+
+apt-get update
+
+apt-get install gcc libgl1-mesa-dev libxext-dev perl perl-modules make unzip
+
+cd /tmp
+
+wget https://github.com/kdlucas/byte-unixbench/archive/master.zip
+
+unzip master.zip
+
+cd byte-unixbench-master/UnixBench/
+
+./Run
+
+
+Geekbench 5 Linux-Server:
+
+cd /tmp 
+
+wget -qO- http://cdn.geekbench.com/Geekbench-5.4.2-Linux.tar.gz | tar -xz
+
+cd Geekbench-5.4.2-Linux && ./geekbench5 
+
