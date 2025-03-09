@@ -20,7 +20,7 @@ Geekbench 5 Linux-Server:
 
 cd /tmp 
 
-wget -qO- http://cdn.geekbench.com/Geekbench-5.4.2-Linux.tar.gz | tar -xz
+wget -qO- https://cdn.geekbench.com/Geekbench-6.4.0-Linux.tar.gz | tar -xz
 
 cd Geekbench-5.4.2-Linux && ./geekbench5 
 
